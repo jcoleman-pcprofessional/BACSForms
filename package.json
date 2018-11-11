@@ -25,7 +25,8 @@
     }],
     "win": {
       "certificateFile": "cert.pfx",
-      "certificatePassword": "lol123"
+      "certificatePassword": "lol123",
+      "publisherName": "PC Pro"
     }
   },
   "respository": "https://github.com/jcoleman-pcprofessional/BACSForms",  
