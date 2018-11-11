@@ -24,7 +24,8 @@
       "repo": "BACSForms"
     }],
     "win": {
-      "certificateFile": "cert.pfx"
+      "certificateFile": "cert.pfx",
+      "certificatePassword": "lol123"
     }
   },
   "respository": "https://github.com/jcoleman-pcprofessional/BACSForms",  
