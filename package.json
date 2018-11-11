@@ -22,6 +22,11 @@
       "provider": "github",
       "owner": "jcoleman-pcprofessional",
       "repo": "BACSForms"
+    }],
+    "dev": [{
+      "provider": "github",
+      "owner": "jcoleman-pcprofessional",
+      "repo": "BACSForms"
     }]
   },
   "respository": "https://github.com/jcoleman-pcprofessional/BACSForms",  
