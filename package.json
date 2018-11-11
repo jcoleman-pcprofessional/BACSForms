@@ -22,7 +22,10 @@
       "provider": "github",
       "owner": "jcoleman-pcprofessional",
       "repo": "BACSForms"
-    }]
+    }],
+    "win": {
+      "certificateFile": "cert.pfx"
+    }
   },
   "respository": "https://github.com/jcoleman-pcprofessional/BACSForms",  
   "scripts": {
