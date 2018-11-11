@@ -1,8 +1,8 @@
 {
   "name": "electron-boilerplate",
   "productName": "BACS Forms",
-  "description": "Starter for your Electron application",
-  "version": "0.0.3",
+  "description": "BACS Form Management Application",
+  "version": "0.0.4",
   "private": true,
   "author": "Jeremy Coleman",
   "copyright": "© 2018, JC",
