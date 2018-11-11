@@ -2,7 +2,7 @@
   "name": "bacs-forms",
   "productName": "BACS Forms",
   "description": "BACS Form Management Application",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": true,
   "author": "Jeremy Coleman",
   "copyright": "© 2018, JC",
