@@ -18,17 +18,19 @@
     "directories": {
       "buildResources": "resources"
     },
-    "publish": [{
-      "provider": "github",
-      "owner": "jcoleman-pcprofessional",
-      "repo": "BACSForms"
-    }],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "jcoleman-pcprofessional",
+        "repo": "BACSForms"
+      }
+    ],
     "win": {
       "certificateFile": "codesign.pfx",
       "publisherName": "PC Pro"
     }
   },
-  "respository": "https://github.com/jcoleman-pcprofessional/BACSForms",  
+  "respository": "https://github.com/jcoleman-pcprofessional/BACSForms",
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
     "preunit": "webpack --config=build/webpack.unit.config.js --env=test --display=none",
@@ -41,8 +43,10 @@
   },
   "dependencies": {
     "electron-updater": "^3.2.3",
+    "fill-pdf": "^1.1.0",
     "fs-jetpack": "^2.1.0",
     "node-gyp": "^3.8.0",
+    "pdf2json": "^1.1.7",
     "sqlite3": "^4.0.4"
   },
   "devDependencies": {
