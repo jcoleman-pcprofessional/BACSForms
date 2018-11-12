@@ -25,7 +25,6 @@
     }],
     "win": {
       "certificateFile": "codesign.pfx",
-      "certificatePassword": "lol123",
       "publisherName": "PC Pro"
     }
   },
