@@ -24,7 +24,7 @@
       "repo": "BACSForms"
     }],
     "win": {
-      "certificateFile": "cert.pfx",
+      "certificateFile": "codesign.pfx",
       "certificatePassword": "lol123",
       "publisherName": "PC Pro"
     }
