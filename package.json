@@ -18,6 +18,13 @@
     "directories": {
       "buildResources": "resources"
     },
+    "extraResources": [
+      {
+        "from": "./PDFTK",
+        "to": "PDFTK",
+        "filter": [ "**/*" ]
+      }
+    ],
     "publish": [
       {
         "provider": "github",
