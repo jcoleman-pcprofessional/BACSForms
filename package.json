@@ -22,7 +22,9 @@
       {
         "from": "./PDFTK",
         "to": "PDFTK",
-        "filter": [ "**/*" ]
+        "filter": [
+          "**/*"
+        ]
       }
     ],
     "publish": [
@@ -39,7 +41,7 @@
   },
   "respository": "https://github.com/jcoleman-pcprofessional/BACSForms",
   "scripts": {
-    "postinstall": "electron-builder install-app-deps",
+    "postinstall": "electron-builder install-app-deps && copy_pdftk.cmd",
     "preunit": "webpack --config=build/webpack.unit.config.js --env=test --display=none",
     "unit": "electron-mocha temp/specs.js --renderer --require source-map-support/register",
     "pree2e": "webpack --config=build/webpack.app.config.js --env=test --display=none && webpack --config=build/webpack.e2e.config.js --env=test --display=none",
@@ -52,9 +54,13 @@
     "electron-updater": "^3.2.3",
     "fill-pdf": "^1.1.0",
     "fs-jetpack": "^2.1.0",
+    "ftp": "^0.3.10",
     "node-gyp": "^3.8.0",
+    "pdf-parse": "^1.1.1",
     "pdf2json": "^1.1.7",
-    "sqlite3": "^4.0.4"
+    "pdfreader": "^0.2.5",
+    "sqlite3": "^4.0.4",
+    "windows": "0.0.8"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.54",
