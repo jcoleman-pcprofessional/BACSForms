@@ -31,13 +31,13 @@
       {
         "provider": "github",
         "owner": "jcoleman-pcprofessional",
-        "repo": "BACSForms"
+        "repo": "BACSForms",
+        "forceCodeSigningVerification": false
       }
     ],
     "win": {
       "certificateFile": "codesign.pfx",
-      "publisherName": "PC Pro",
-      "forceCodeSigningVerification": false
+      "publisherName": "PC Pro"
     }
   },
   "respository": "https://github.com/jcoleman-pcprofessional/BACSForms",
