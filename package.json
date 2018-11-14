@@ -36,7 +36,7 @@
     ],
     "win": {
       "certificateFile": "codesign.pfx",
-      "publisherName": "PC Pro"
+      "publisherName": "Jeremy"
     }
   },
   "respository": "https://github.com/jcoleman-pcprofessional/BACSForms",
