@@ -1,12 +1,12 @@
 {
   "name": "bacs_form_manager",
   "productName": "BACS Form Manager",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "BACS Form Manager",
   "main": "main_process.js",
   "copyright": "© 2018, JC",
   "scripts": {
-    "postinstall": "electron-builder install-app-deps &&  && copy_pdftk.cmd",
+    "postinstall": "electron-builder install-app-deps &&  && git-updater.cmd",
     "bundle": "webpack --mode development --info-verbosity verbose",
     "serve": "SET APP_DEV=true  && electron .",
     "start": "npm-run-all --parallel bundle serve",
