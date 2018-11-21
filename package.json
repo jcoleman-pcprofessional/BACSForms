@@ -1,7 +1,7 @@
 {
   "name": "bacs_form_manager",
   "productName": "BACS Form Manager",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "BACS Form Manager",
   "main": "main_process.js",
   "copyright": "© 2018, JC",
@@ -14,7 +14,6 @@
     "dist": "webpack --env=production && electron-builder --publish always"
   },
   "author": "Jeremy Coleman <jcoleman@pcprofessional.com>",
-  "repository": "jcoleman-pcprofessional/bacs-form-manager",
   "license": "WTFPL",
   "devDependencies": {
     "@babel/core": "^7.1.6",
